@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 .card__inicio{
-    
     font-size: medium;
     float: none;
     width: 100%;
     height: auto;
-    
+    background-color: black;
 }
 .card__logo{
     color: white;
@@ -33,6 +32,7 @@
     background-size: cover;
     background-position:center;
     background-repeat:no-repeat;
+    
   
     
 }
@@ -98,5 +98,6 @@ footer{
 .our{
     height:50vh;
 }
+
 
 
