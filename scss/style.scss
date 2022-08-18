@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.caja{
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20%;
+}
+
+ .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+    .caja1{
+       grid-column: 1/2;
+       grid-row: 2/2;
+    }
+    .caja3{
+        grid-row: 1/3;
+    }
+    
+ }   
+            
+    
+
+   
+
+.tercero{
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+}
+.cuarto{
+    width: 100%;
+    height: 1000px;
+    background-color: orangered;
+}
+
+
+.barra{
+    background-color: white;
+    color: black;
+    .card__logo{
+        font-size: medium;
+        width: 100%;
+        float: none;
+        font-family:'Edu VIC WA NT Beginner';
+        
+        nav{
+            ul{
+                li{
+                    a{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
